@@ -8,9 +8,10 @@ const static = express.static(pathToPublic);
 app.use(static);
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, "views/home.html"))
+    res.sendFile(path.join(__dirname, "views/home.html")) 
 });
 
-app.listen(3000, () =>{
-    console.log("Server funcionando")
+const PORT = 3001;
+app.listen(PORT, () =>{
+    console.log(`Server ${PORT} funcionando`)
 });

@@ -1,0 +1,91 @@
+* {
+    padding: 1;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Roboto";
+}
+
+
+body-gris {
+    background-color: #ebebeb ;
+}
+
+
+.encabezado-superior {
+    background-color: #EAC926;
+  
+}
+
+
+.logo-ml{
+    width: 45%;
+    padding-left: 3%;
+    padding-top: 3%;
+    display: flex;
+}
+
+.search {
+    position: center;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    align-content: center;
+    
+}
+
+.search-input {
+    width: 120px; 
+    padding: 4px;
+    font-size: 14px;
+}
+
+.search-button{
+    padding: 7px; 
+    height: 30px;
+}
+
+
+.w-images{
+    width: 50%;
+}
+
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+
+.cuotas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+
+}
+
+.burger-menu {    
+    position: relative;
+    left: 45%; 
+    display: flex;
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.titular1 {
+    font-size: 24px;
+}
